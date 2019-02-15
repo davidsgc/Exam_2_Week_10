@@ -47,7 +47,7 @@ class Bank(object):
           :type account_number: str
         """
     # ---------------------------------------------------------------------
-    # TODO: 1. Implement and test instances of this class.
+    # DONE: 1. Implement and test instances of this class.
     #     See the testing code (scroll down near bottom) for more examples.
     # ---------------------------------------------------------------------
         self.name = name
@@ -81,7 +81,7 @@ class Bank(object):
           #   an error message is printed because there are insufficient funds
         """
     # ---------------------------------------------------------------------
-    # TODO: 4. Implement and test the withdraw method
+    # DONE: 4. Implement and test the withdraw method
     #     Implement your own test code, before you write your method
     #     Insert your test code for withdraw, where indicated
     #     Scroll down near the bottom of this screen
@@ -127,7 +127,7 @@ def run_test_init():
         print_failure_message()
     print()
 
-    # Test 3:  Contents fit in the Box easily.
+    # Test 2:  Contents fit in the Box easily.
     b1 = Bank('Clayton', 12000, 'A43')
     expected_name = 'Clayton'
     expected_balance = 12000
@@ -141,7 +141,7 @@ def run_test_init():
         print_failure_message()
     print()
 # ---------------------------------------------------------------------
-# TODO: 3. Implement your test for the withdraw method below
+# DONE: 3. Implement your test for the withdraw method below
 # ---------------------------------------------------------------------
 def run_test_withdrawl():
 # Implement at least two tests.  Use copy and paste to speed your coding.
